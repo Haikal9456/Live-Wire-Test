@@ -4,6 +4,7 @@
         
         <button type="submit">add</button>
     </form>
+    
     <ul>
         @foreach ($todos as $todo)
             <li>{{ $todo }}</li>
